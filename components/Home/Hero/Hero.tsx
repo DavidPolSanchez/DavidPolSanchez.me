@@ -15,7 +15,7 @@ export const Hero = () => {
         <ParticlesHero/>
       <div className="relative z-10 flex flex-col items-center">
         <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
-          Hey, I&apos;m David Pol Sanchez, welcome to my portfolio!
+          Hey, I&apos;m David Pol Sanchez!
           <br />
           <br />
         </h2>
@@ -29,7 +29,7 @@ export const Hero = () => {
 
         <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
           Creating software projects, <br />
-          focusing on products,
+          focusing on products,<br />
           <span className="text-green-900"> and user experiences.</span>
         </h1>
         <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
@@ -38,10 +38,10 @@ export const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "to connect small bussiness to their customers.",
-                  "to build a better way to do things.",
-                  "to understand how it affects people lives.",
-                  "to feel close to the people we care.",
+                  "to connect bussiness to users.",
+                  "to build a usefull tools.",
+                  "to imporve how affects people.",
+                  "to be close to the people we care.",
                 ],
                 autoStart: true,
                 loop: true,

@@ -17,15 +17,15 @@ export const MobileNav = ({ closeNav, showNav }: Props) => {
       opacity-70 w-full h-screen`}></div>
       {/* NavLinks */}
       <div
-        className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all 
-      duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 z-1000050 right-0`}
+        className={`text-black ${navOpen} fixed justify-center flex flex-col h-full transform transition-all 
+      duration-500 delay-300 w-[80%] sm:w-[60%] bg-green-800 space-y-6 z-1000050 right-0`}
       >
         {NavLinks.map((link) => {
           return (
             <a
               key={link.id}
               href={link.url}
-              className="text-white w-fit text-xl ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]"
+              className="text-black w-fit text-xl ml-12 border-b-[1.5px] pb-1  sm:text-[30px]"
             >
               <p>{link.label} </p>
             </a>
