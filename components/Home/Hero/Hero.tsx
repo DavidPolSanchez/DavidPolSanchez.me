@@ -11,10 +11,10 @@ export const Hero = () => {
       className="relative h-screen items-center flex justify-center text-white 
     overflow-hidden flex-col"
     >
-        {/*particle background to implement*/}
+        
         <ParticlesHero/>
       <div className="relative z-10 flex flex-col items-center">
-        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-bold flex items-center">
           Hey, I&apos;m David Pol Sanchez!
           <br />
           <br />
@@ -40,7 +40,7 @@ export const Hero = () => {
                 strings: [
                   "to connect bussiness to users.",
                   "to build a usefull tools.",
-                  "to imporve how affects people.",
+                  "to improve how affects people.",
                   "to be close to the people we care.",
                 ],
                 autoStart: true,
