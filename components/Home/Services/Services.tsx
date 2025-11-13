@@ -14,26 +14,26 @@ const Services = () => {
         <div>
           <ServiceCard
           icon="/images/s1.webp"
-          name="UI and UX"
-          description="designing interfaces that are intuitive,efficent, and enjoyable to use."/>
+          name="Cool web designs"
+          description="Designing interfaces that are intuitive,efficent, and enjoyable to use."/>
         </div>
         <div>
           <ServiceCard
           icon="/images/s2.webp"
           name="Mobile development"
-          description="webs and apps to be displayed in all kind of devices."/>
+          description="Webs and apps to be displayed in all kind of devices."/>
         </div>
         <div >
           <ServiceCard
           icon="/images/s3.webp"
           name="SEO mindset"
-          description="thinking to reach the maximum number of users for the bussiness"/>
+          description="Thinking to reach the maximum number of users for the bussiness."/>
         </div>
         <div>
           <ServiceCard
           icon="/images/s4.webp"
           name="Programmed to you"
-          description=""/>
+          description="Handmade implementations build side by side with the client."/>
         </div>
       </div>
     </div>
