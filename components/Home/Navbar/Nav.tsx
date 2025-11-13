@@ -27,8 +27,8 @@ export const Nav = ({ openNav }: Props) => {
   return (
     <div
       className={`transition-all ${
-        navBg ? " bg-[#0fd142ed9] shadow-md " : "fixed"
-      } duration-200 h-[12vh] z-10000 fixed w-full `}
+        navBg ? "bg-[#000000d9] shadow-md " : "fixed"
+      } duration-200 h-[12vh] z-10000 fixed w-full`}  
     >
         <div className="flex items-center h-full justify-between w-[90%] mx-auto">
             {/*LOGO*/}
