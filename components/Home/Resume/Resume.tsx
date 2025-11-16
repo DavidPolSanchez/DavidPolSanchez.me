@@ -17,16 +17,19 @@ const Resume = () => {
               Icon={FaCodepen}
               role="Frontend Developer at XYZ Company"
               date="Jan 2020 - Present"
+              description="this project was talaala"
             />
             <ResumeCard
               Icon={FaReact}
               role="UI/UX Designer at ABC Studio"
               date="Jun 2018 - Dec 2019"
+              description="this project was talaala"
             />
             <ResumeCard
               Icon={BsDatabase}
               role="Intern at Web Solutions"
               date="Jan 2018 - May 2018"
+              description="this project was talaala"
             />
           </div>
         </div>
@@ -39,9 +42,18 @@ const Resume = () => {
             <ResumeCard
               Icon={FaCodepen}
               role="Frontend Developer at XYZ Company"
+              description="this project was talaala"
             />
-            <ResumeCard Icon={FaReact} role="UI/UX Designer at ABC Studio" />
-            <ResumeCard Icon={BsDatabase} role="Intern at Web Solutions" />
+            <ResumeCard
+              Icon={FaReact}
+              role="UI/UX Designer at ABC Studio"
+              description="this project was talaala"
+            />
+            <ResumeCard
+              Icon={BsDatabase}
+              role="Intern at Web Solutions"
+              description="this project was talaala"
+            />
           </div>
         </div>
       </div>
