@@ -63,6 +63,12 @@ export const Nav = ({ openNav }: Props) => {
             <div className="flex items-center space-x-4">
             {/* CV Button */}
             <button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/18sBvLuoVt7ppErmyXIVLboSNbIWRzLyy/view?usp=drive_link",
+                "_blank"
+              )
+            }
                 className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-green-900 hover:bg-green-700
                     transition-all duration-300 text-white flex items-center space-x-2"
             >

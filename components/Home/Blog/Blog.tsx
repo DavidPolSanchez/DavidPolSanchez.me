@@ -10,7 +10,23 @@ const Blog = () => {
       <div className="w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-3 xl:gap-4 gap-10 items-center mt-16">
         <div>
           <BlogCard
-            image="/images/background.jpeg"
+            image="/images/blogdigitalnomad.jpg"
+            title="Understanding React Hooks: A Comprehensive Guide"
+            date="August 15, 2023"
+            tags={["React", "JavaScript", "hooks"]}
+          />
+        </div>
+        <div>
+          <BlogCard
+            image="/images/blogsocialmedia.png"
+            title="Understanding React Hooks: A Comprehensive Guide"
+            date="August 15, 2023"
+            tags={["React", "JavaScript", "hooks"]}
+          />
+        </div>
+        <div>
+          <BlogCard
+            image="/images/blogcomingsoon.png"
             title="Understanding React Hooks: A Comprehensive Guide"
             date="August 15, 2023"
             tags={["React", "JavaScript", "hooks"]}
