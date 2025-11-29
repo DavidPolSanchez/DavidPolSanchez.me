@@ -13,7 +13,7 @@ const Home = () => {
     <div className="overflow-hidden ">
       <Hero/>
       <Blog/>
-      <Services/>
+      {/*<Services/>*/}
       <FindMe/>
       <Resume/>
       <Projects/>

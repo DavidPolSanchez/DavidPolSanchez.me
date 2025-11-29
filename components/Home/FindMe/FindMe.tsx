@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { SlSocialInstagram } from "react-icons/sl";
-import { SiLinkedin } from "react-icons/si";
+import { SiLinkedin, SiYoutube } from "react-icons/si";
 import { SiMastodon } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
 
@@ -23,6 +23,11 @@ const apps = [
     icon: <SiMastodon />,
     username: "@DaveLoop",
     url: "https://mastodon.social/@DaveLoop",
+  },{
+    name: "Youtube",
+    icon: <SiYoutube />,
+    username: "@DaveLoopCave",
+    url: "https://www.youtube.com/@DaveLoopCave",
   },
 ];
 const FindMe = () => {
