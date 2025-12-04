@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { NavLinks } from "@/constants/contant";
+import { NavLinks } from "@/constants/constants";
 import Link from "next/link";
 import { BiDownload } from "react-icons/bi";
 import { HiBars3BottomRight } from "react-icons/hi2";

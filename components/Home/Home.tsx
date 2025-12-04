@@ -1,22 +1,35 @@
+'use client'
 
 import React from 'react'
+import dynamic from 'next/dynamic'
+
 import Hero from './Hero/Hero'
-import Services from './Services/Services'
-import Resume from './Resume/Resume'
-import Projects from './Projects/Projects'
-import Blog from './Blog/Blog'
-import FindMe from './FindMe/FindMe'
+
+const DynamicBlog = dynamic(() => import('./Blog/Blog'), {
+  ssr: false,
+})
+
+const DynamicFindMe = dynamic(() => import('./FindMe/FindMe'), {
+  ssr: false,
+})
+
+const DynamicResume = dynamic(() => import('./Resume/Resume'), {
+  ssr: false,
+})
+
+const DynamicProjects = dynamic(() => import('./Projects/Projects'), {
+  ssr: false,
+})
 
 
 const Home = () => {
   return (
     <div className="overflow-hidden ">
       <Hero/>
-      <Blog/>
-      {/*<Services/>*/}
-      <FindMe/>
-      <Resume/>
-      <Projects/>
+      <DynamicBlog />
+      <DynamicFindMe/>
+      <DynamicResume/>
+      <DynamicProjects/>
       </div>
   )
 }
