@@ -9,7 +9,7 @@ type Props = {
 
 const PhotoItem = ({ src, alt }: Props) => {
   return (
-    <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-900 group">
+    <div className="relative aspect-3/4 overflow-hidden rounded-xl bg-gray-900 group">
       <Image
         src={src}
         alt={alt}
