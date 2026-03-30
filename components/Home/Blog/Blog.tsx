@@ -10,6 +10,7 @@ const Blog = () => {
       <div className="w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-3 xl:gap-4 gap-10 items-center mt-16">
         <div>
           <BlogCard
+            href="/blog/Digitalnomadblog"
             image="/images/blogdigitalnomad.jpg"
             title="Understanding React Hooks: A Comprehensive Guide"
             date="August 15, 2023"
@@ -22,7 +23,7 @@ const Blog = () => {
             title="Understanding React Hooks: A Comprehensive Guide"
             date="August 15, 2023"
             tags={["React", "JavaScript", "hooks"]}
-          />
+            href={""} />
         </div>
         <div>
           <BlogCard
@@ -30,7 +31,7 @@ const Blog = () => {
             title="Understanding React Hooks: A Comprehensive Guide"
             date="August 15, 2023"
             tags={["React", "JavaScript", "hooks"]}
-          />
+            href={""} />
         </div>
       </div>
     </div>
