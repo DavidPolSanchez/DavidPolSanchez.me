@@ -9,7 +9,7 @@ const Biography = () => {
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl font-bold">Hey there! 👋</h2>
           <p className="text-gray-300 leading-relaxed text-lg">
-            I'm David, a Software Developer based in Spain, that loves to code and build products with a delightful user experience.
+            I&apos;m David, a Software Developer based in Spain, that loves to code and build products with a delightful user experience.
             I love working in between product, engineering and developer experience.
           </p>
           <p className="text-gray-400 leading-relaxed text-lg">
@@ -18,7 +18,7 @@ const Biography = () => {
           </p>
         </div>
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-green-900 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-green-600 to-green-900 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
           <Image
             src="/images/profilepic.jpeg"
             alt="David Pol Sanchez"

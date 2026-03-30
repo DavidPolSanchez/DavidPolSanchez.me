@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-
-import BlogEntry from "./BlogEntry";
 import BlogList from "./BlogList";
 import BlogHero from "./BlogHero";
 

@@ -16,23 +16,23 @@ const blogPostsContent: Record<string, { title: string, date: string, views: str
         </p>
         <h2>The Canggu Vibe</h2>
         <p>
-          Canggu is where the modern nomad thrives. With world-class coworking spaces like Dojo and Tropical Nomad, you're never far from high-speed internet and a community of like-minded individuals. The "work hard, play hard" mentality is palpable here.
+          Canggu is where the modern nomad thrives. With world-class coworking spaces like Dojo and Tropical Nomad, you&apos;re never far from high-speed internet and a community of like-minded individuals. The &quot;work hard, play hard&quot; mentality is palpable here.
         </p>
         <blockquote>
-          "The best office in the world is the one that allows you to see the sunset over the Indian Ocean after a productive day of coding."
+          &quot;The best office in the world is the one that allows you to see the sunset over the Indian Ocean after a productive day of coding.&quot;
         </blockquote>
         <h2>Productivity in Paradise</h2>
         <p>
-          Many people ask: "How do you actually get work done in Bali?" The secret lies in the routine. Waking up early for a surf or yoga session sets the tone for a focused afternoon. The relatively low cost of living also means you can afford a comfortable workspace and nutritious food, which are essential for long-term productivity.
+          Many people ask: &quot;How do you actually get work done in Bali?&quot; The secret lies in the routine. Waking up early for a surf or yoga session sets the tone for a focused afternoon. The relatively low cost of living also means you can afford a comfortable workspace and nutritious food, which are essential for long-term productivity.
         </p>
         <h3>Top Tips for New Nomads:</h3>
         <ul>
-          <li><strong>Get an International Driving Permit:</strong> You'll want a scooter to get around.</li>
+          <li><strong>Get an International Driving Permit:</strong> You&apos;ll want a scooter to get around.</li>
           <li><strong>Invest in a good VPN:</strong> Essential for security and accessing home services.</li>
           <li><strong>Join local communities:</strong> Facebook groups and Slack channels are great for networking.</li>
         </ul>
         <p>
-          Whether you're a software engineer, a designer, or a writer, Bali provides an environment that fosters creativity and growth. It's not just about the beaches; it's about the feeling of freedom and the community you build along the way.
+          Whether you&apos;re a software engineer, a designer, or a writer, Bali provides an environment that fosters creativity and growth. It&apos;s not just about the beaches; it&apos;s about the feeling of freedom and the community you build along the way.
         </p>
       </>
     )
