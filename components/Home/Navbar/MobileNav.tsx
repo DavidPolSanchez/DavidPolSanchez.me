@@ -1,6 +1,7 @@
-import NavLinks from "@/constants/constants";
+import { NavLinks } from "@/constants/constants";
 import React from "react";
 import { CgClose } from "react-icons/cg";
+import Link from "next/link";
 
 type Props = {
   showNav: boolean;
@@ -8,8 +9,8 @@ type Props = {
 };
 export const MobileNav = ({ closeNav, showNav }: Props) => {
 
-  const navOpen= showNav ? "translate-x-0" : "translate-x-[100%]";
-  
+  const navOpen = showNav ? "translate-x-0" : "translate-x-[100%]";
+
   return (
     <div>
       {/* Overlay */}
@@ -22,13 +23,14 @@ export const MobileNav = ({ closeNav, showNav }: Props) => {
       >
         {NavLinks.map((link) => {
           return (
-            <a
+            <Link
               key={link.id}
               href={link.url}
               className="text-black w-fit text-xl ml-12 border-b-[1.5px] pb-1  sm:text-[30px]"
+              onClick={closeNav}
             >
               <p>{link.label} </p>
-            </a>
+            </Link>
           );
         })}
         {/*/ Cross Icon  */}
