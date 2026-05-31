@@ -17,7 +17,7 @@ const BlogPost = ({ title, date, views, content }: BlogPostProps) => {
       {/* Hero Section */}
       <div className="relative h-[40vh] flex flex-col items-center justify-center overflow-hidden">
         <ParticlesHero />
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto pt-20">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-green-300 transition-colors mb-8 group"
@@ -44,7 +44,7 @@ const BlogPost = ({ title, date, views, content }: BlogPostProps) => {
       {/* Content Section */}
       <div className="relative z-10 bg-[#050505] shadow-[0_-20px_50px_rgba(0,0,0,0.8)]">
         <div className="h-px bg-linear-to-r from-transparent via-gray-800 to-transparent max-w-4xl mx-auto mb-16" />
-        
+
         <div className="max-w-3xl mx-auto px-6 pb-32">
           <div className="prose prose-invert prose-green max-w-none 
             prose-headings:font-bold prose-headings:tracking-tight

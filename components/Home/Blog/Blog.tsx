@@ -12,9 +12,9 @@ const Blog = () => {
           <BlogCard
             href="/blog/Digitalnomadblog"
             image="/images/blogdigitalnomad.jpg"
-            title="Understanding React Hooks: A Comprehensive Guide"
-            date="August 15, 2023"
-            tags={["React", "JavaScript", "hooks"]}
+            title="HOW I REACHED REMOTE WORK"
+            date="October 04, 2026"
+            tags={["Remote Work", "Digital Nomad", "Lifestyle"]}
           />
         </div>
         <div>

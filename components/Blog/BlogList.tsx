@@ -6,10 +6,7 @@ const blogPosts = [
   {
     year: "2026",
     posts: [
-      { date: "Oct 04", title: "Digital Nomad in Bali", views: "2,129", slug: "Digitalnomadblog" },
-      { date: "Mar 02", title: "Writing RFCs", views: "2,364", slug: "writing-rfcs" },
-      { date: "Oct 04", title: "Building Server-Driven UIs", views: "2,129", slug: "building-server-driven-uis" },
-      { date: "Mar 02", title: "Writing RFCs", views: "2,364", slug: "writing-rfcs" },
+      { date: "Oct 04", title: "HOW I REACHED REMOTE WORK ", views: "2,129", slug: "Digitalnomadblog" },
     ],
   }
 ];
