@@ -30,7 +30,9 @@ export const Nav = ({ openNav }: Props) => {
         navBg ? "bg-[#000000d9] shadow-md " : "fixed"
       } duration-200 h-[12vh] z-10000 fixed w-full`}  
     >
-        <div className="flex items-center h-full justify-between w-[90%] mx-auto">
+        {/* On desktop a 1fr | auto | 1fr grid keeps the links exactly centred,
+            whatever the width of the logo or the buttons */}
+        <div className="flex items-center h-full justify-between w-[90%] mx-auto lg:grid lg:grid-cols-[1fr_auto_1fr]">
             {/*LOGO*/}
             <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gray-500 rounded-full flex items-center justify-center flex-col">
@@ -38,10 +40,10 @@ export const Nav = ({ openNav }: Props) => {
                 src="/images/Logo.png"
                 alt="Logo de mi sitio web"
                 width={30}
-                height={50}
+                height={30}
                 />
             </div>
-            <h1 className="text-x1  hidden sm:block md:text-2x1 text-white font-bold">
+            <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
                 DavidPolSanchez
             </h1>
             </div>
@@ -60,7 +62,7 @@ export const Nav = ({ openNav }: Props) => {
             })}
             </div>
             {/*Buttons*/}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center justify-self-end space-x-4">
             {/* CV Button */}
             <button
             onClick={() =>
