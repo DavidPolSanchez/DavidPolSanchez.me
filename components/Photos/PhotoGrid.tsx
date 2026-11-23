@@ -14,7 +14,7 @@ const PhotoGrid = () => {
     <section className="py-16 px-4 max-w-6xl mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {photos.map((photo, index) => (
-          <PhotoItem key={index} src={photo.src} alt={photo.alt} />
+          <PhotoItem key={index} src={photo.src} alt={photo.alt} eager={index < 3} />
         ))}
       </div>
     </section>

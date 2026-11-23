@@ -38,10 +38,10 @@ export const Nav = ({ openNav }: Props) => {
                 src="/images/Logo.png"
                 alt="Logo de mi sitio web"
                 width={30}
-                height={50}
+                height={30}
                 />
             </div>
-            <h1 className="text-x1  hidden sm:block md:text-2x1 text-white font-bold">
+            <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
                 DavidPolSanchez
             </h1>
             </div>

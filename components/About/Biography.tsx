@@ -23,7 +23,8 @@ const Biography = () => {
             src="/images/profilepic.jpeg"
             alt="David Pol Sanchez"
             width={300}
-            height={400}
+            height={300}
+            loading="eager"
             className="relative rounded-2xl grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl"
           />
         </div>

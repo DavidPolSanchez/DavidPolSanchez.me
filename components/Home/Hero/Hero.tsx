@@ -24,30 +24,32 @@ export const Hero = () => {
           alt="heroimage"
           width={150}
           height={150}
+          loading="eager"
           className="rounded-full border-5 border-gray-600"
         />
 
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
-          Creating software projects, <br />
-          focusing on products,<br />
-          <span className="text-green-900"> and user experiences.</span>
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 px-4 text-center font-bold tracking-wide">
+          Creating software projects, <br className="hidden sm:block" />
+          focusing on products, <br className="hidden sm:block" />
+          <span className="text-green-400">and user experiences.</span>
         </h1>
-        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+        {/* Stacked on mobile so long phrases don't squeeze into a narrow column */}
+        <h2 className="mt-5 text-sm px-4 text-center sm:text-2xl font-medium flex flex-col lg:flex-row items-center">
           Using technology
-          <span className="text-gray-500 font-bold">
+          <span className="text-gray-400 font-bold min-h-[1.5em]">
             <Typewriter
               options={{
                 strings: [
-                  "to connect bussiness to users.",
-                  "to build a usefull tools.",
-                  "to improve how affects people.",
-                  "to be close to the people we care.",
+                  "to connect businesses with users.",
+                  "to build useful tools.",
+                  "to improve how it affects people.",
+                  "to stay close to the people we care about.",
                 ],
                 autoStart: true,
                 loop: true,
                 delay: 75,
                 deleteSpeed: 50,
-                wrapperClassName: "pl-2",
+                wrapperClassName: "lg:pl-2",
               }}
             />
           </span>
